@@ -1,0 +1,55 @@
+html{
+    width: 100vw;
+    background: #F1FFE3;
+    font-family: ubuntu;
+}
+
+#tiempo{
+    margin:0;
+    font-size: 0.9rem;
+}
+
+div{
+    border: 1px solid green;
+    width: 60%;
+    margin: 5% auto;
+    text-align: center;
+    box-shadow: 5px 5px 10px #8f8f8f;
+    background: rgb(248, 245, 245);
+}
+h1{
+    font-size: 5rem;
+    color: #83DC14;
+    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
+    text-transform:uppercase
+}
+h1, p{
+    margin: 5% 1%;
+}
+
+button{
+    padding: 1% 5%;
+    margin: 2% 0;
+    border: 1px solid black;
+    background: #83DC14;
+    box-shadow: 1px 1px 10px #8f8f8f;
+    text-transform:uppercase;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    font-family: Signika;
+}
+
+
+@media (max-width: 990px){
+    h1{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 600px){
+
+    h1{
+        font-size: 2rem;
+    }
+}
